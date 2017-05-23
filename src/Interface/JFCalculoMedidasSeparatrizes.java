@@ -216,26 +216,7 @@ public class JFCalculoMedidasSeparatrizes extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextFieldgetPercentilActionPerformed
 
     private void jButtonCalcularPercentilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCalcularPercentilActionPerformed
-        Integer aux, aux2;
-        Double aux3, aux4;
-        aux4 = Double.parseDouble(jTextFieldgetPercentil.getText());
-        aux3 = (i * aux4) / 100;
-      
-        if (aux3 % 1 == 0) {
-            jTextFieldPosicao.setText(aux3.toString());
-            jTextFieldvalor.setText(values[Integer.parseInt(aux3.toString())].toString());
-            //se a intenção da linha acima é pegar o elemento na posição do resultado - aux3 - não está funcionando
-        } else {
-            jTextFieldPosicao.setText(aux3.toString());
-
-            aux = values[Integer.parseInt(aux3.toString())];
-            aux2 = values[Integer.parseInt(aux3.toString()) + 1];
-            aux = (aux + aux2) / 2;
-            
-
-            jTextFieldvalor.setText(aux.toString());
-
-        }
+       
     }//GEN-LAST:event_jButtonCalcularPercentilActionPerformed
 
     private void jTextFieldvalorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldvalorActionPerformed
