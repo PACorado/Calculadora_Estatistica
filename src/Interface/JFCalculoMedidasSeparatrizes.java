@@ -212,11 +212,11 @@ public class JFCalculoMedidasSeparatrizes extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextFieldgetNumeroActionPerformed
 
     private void jTextFieldgetPercentilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldgetPercentilActionPerformed
-        // TODO add your handling code here:
+
     }//GEN-LAST:event_jTextFieldgetPercentilActionPerformed
 
     private void jButtonCalcularPercentilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCalcularPercentilActionPerformed
-       
+    Integer percentil = Integer.parseInt(jTextFieldgetPercentil.getText());
     }//GEN-LAST:event_jButtonCalcularPercentilActionPerformed
 
     private void jTextFieldvalorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldvalorActionPerformed
