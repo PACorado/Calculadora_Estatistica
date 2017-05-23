@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Distribui&#xe7;&#xe3;o de Frequ&#xea;ncia"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="271" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jButtonCalcularFrequencia" min="-2" pref="182" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="333" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jScrollPane2" min="-2" pref="745" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jScrollPane2" min="-2" pref="337" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Component id="jButtonCalcularFrequencia" min="-2" pref="65" max="-2" attributes="0"/>
+              <EmptySpace pref="26" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="302" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="24" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor Padr&#xe3;o"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextAreaDF">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#x9;Em geral, as pesquisas estat&#xed;sticas resultam em um grande volume de dados. Assim, &#xe9; necess&#xe1;rio resum&#xed;-los para obtermos as informa&#xe7;&#xf5;es relevantes. Uma das maneiras de se fazer isso &#xe9; atrav&#xe9;s das distribui&#xe7;&#xf5;es de frequ&#xea;ncias, que podem ser complementadas com gr&#xe1;ficos apropriados. Embora o princ&#xed;pio b&#xe1;sico seja o mesmo, voc&#xea; ver&#xe1; que h&#xe1; algumas diferen&#xe7;as, dependendo do tipo de vari&#xe1;vel que se est&#xe1; estudando.&#xa;&#x9;A distribui&#xe7;&#xe3;o de frequ&#xea;ncia nos mostra um agrupamento de dados resumidos, dividida em classes mutuamente exclusivas e o n&#xfa;mero de ocorr&#xea;ncias de uma classe. &#xc9; uma forma de mostrar, por exemplo, dados desorganizados para mostrar os resultados de uma elei&#xe7;&#xe3;o, a renda de pessoas para uma determinada regi&#xe3;o, as vendas de um produto dentro de um determinado per&#xed;odo, os valores de empr&#xe9;stimo do estudante de graduados, etc. Alguns dos gr&#xe1;ficos que podem ser usados &#x200b;&#x200b;com as distribui&#xe7;&#xf5;es de frequ&#xea;ncia podem ser: histograma, gr&#xe1;fico de linha, gr&#xe1;fico de barras e gr&#xe1;fico de setores. As distribui&#xe7;&#xf5;es de frequ&#xea;ncia s&#xe3;o usadas &#x200b;&#x200b;para ambos dados qualitativos e quantitativos.&#xa;&#x9;Quando o conjunto de dados consiste de um grande n&#xfa;mero de dados, indica-se aloc&#xe1;-los numa tabela de distribui&#xe7;&#xe3;o de freq&#xfc;&#xea;ncia ou tabela de freq&#xfc;&#xea;ncia. Os dados nessa tabela s&#xe3;o divididos em classes pr&#xe9;-estabelecidas, anotando-se a freq&#xfc;&#xea;ncia de cada classe. Ent&#xe3;o uma tabela de freq&#xfc;&#xea;ncia &#xe9; um arranjo tabular dos dados com a freq&#xfc;&#xea;ncia correspondente. As tabelas de freq&#xfc;&#xea;ncia servem de base para as representa&#xe7;&#xf5;es gr&#xe1;ficas.&#xa;&#xa;&#x9;O primeiro trabalho para constru&#xe7;&#xe3;o de uma tabela de freq&#xfc;&#xea;ncia &#xe9; a escolha das classes.  Quando est&#xe1; usando vari&#xe1;veis discretas, devemos unir duas ou mais classes em uma s&#xf3;. Por exemplo, no censo de carros por fam&#xed;lia na cidade de Campo Grande, as classes ser&#xe3;o: 0, 1, 2, ..., n. Onde n &#xe9; o maior n&#xfa;mero de carros por fam&#xed;lia. Se a classe 0 e 1 for muito freq&#xfc;ente, devemos uni-las ent&#xe3;o as classes ser&#xe3;o: 0-1, 2-3, ...,n.&#xa;&#xa;&#x9;Quando tratar-se de vari&#xe1;veis cont&#xed;nuas as classes dever&#xe3;o ser escolhidas de um modo ao acaso. A escolha depende do n&#xfa;mero total de observa&#xe7;&#xf5;es, amplitude da varia&#xe7;&#xe3;o e a precis&#xe3;o requerida nos c&#xe1;lculos.&#xa;&#xa;&#x9;Deve ser observado que quanto maior o n&#xba; de classes, maior poder&#xe1; ser o erro na an&#xe1;lise estat&#xed;stica. Pode ent&#xe3;o fazer classes de pequenas amplitudes, por&#xe9;m pode-se aumentar excessivamente o n&#xba; de classes (de 10 a 20 classes &#xe9; um n&#xfa;mero aceit&#xe1;vel).&#xa;&#xa;&#x9;As classes devem ser mutuamente exclusivas (um valor de classe exclui o outro) para que n&#xe3;o haja d&#xfa;vida na localiza&#xe7;&#xe3;o do dado. As classes devem der definidas (inaceit&#xe1;veis classes como &#x201c;50 ou mais&#x201d;).&#xa;&#xa;&#x9;O centro da classe &#xe9; a m&#xe9;dia dos limites da classe. Os centros de classe e as respectivas freq&#xfc;&#xea;ncias s&#xe3;o usados nosc&#xe1;lculos das estat&#xed;sticas descritivas. Fornecem tamb&#xe9;m os elementos para a organiza&#xe7;&#xe3;o dos gr&#xe1;ficos como o histograma, o pol&#xed;gono de freq&#xfc;&#xea;ncia e a ogiva.&#xa;&#xa;&#x9;Defini&#xe7;&#xf5;es:&#xa;&#x9;&#xa;&#x9;1) Dados Brutos: Conjunto de dados que ainda n&#xe3;o foram numericamente organizados, obtidos ap&#xf3;s a cr&#xed;tica dos valores.&#xa;&#xa;&#x9;2) Rol: &#xc9; um arranjo dos dados brutos em ordem crescente.&#xa;&#xa;&#x9;3) Amplitude Amplitude Total (AT): &#xc9; a diferen&#xe7;a entre o maior e o menor valor observado.&#xa;&#xa;           &#x9;AT = XM&#xc1;X - XM&#xcd;N&#xa;&#xa;&#x9;4) Frequ&#xea;ncia absoluta ou simples (Fi): &#xc9; o n&#xfa;mero de observa&#xe7;&#xf5;es que se encontra presente em uma classe ou intervalo especifico.&#xa;&#xa;&#x9;5) Frequ&#xea;ncia percentual  (fi%): Representa o percentual  de um certo valor na amostra.&#xa;&#xa;            &#x9;fi%=(Fi /n)x100 &#x3a3; fi%=100&#xa;&#xa;&#x9;6) Frequ&#xea;ncia simples acumulada (Faci): &#xc9; a soma das freq&#xfc;&#xea;ncias simples das classes ou dos valores anteriores.&#xa;&#xa;             &#x9;Faci = F1 + F2 + ... + Fi&#xa;&#xa;&#x9;7) Frequ&#xea;ncia  percentual acumulada (faci%): &#xc9; a soma das freq&#xfc;&#xea;ncias relativas percentua das classes ou dos valores anteriores.&#xa;&#xa;&#x9;faci%= f1% + f2% + ... + fi%"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Franklin Gothic Heavy" size="20" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="33" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Distribui&#xe7;&#xe3;o de Frequ&#xea;ncia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonCalcularFrequencia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calcular Frequ&#xea;ncia"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCalcularFrequenciaActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

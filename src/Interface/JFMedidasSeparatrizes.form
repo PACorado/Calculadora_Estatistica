@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Medidas de Tend&#xea;ncia Central"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanelMedia" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanelMedia" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanelMedia">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="330" max="-2" attributes="0"/>
+                          <Component id="jButtonCalcular" min="-2" pref="176" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="jScrollPaneMedia" min="-2" pref="747" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="291" max="-2" attributes="0"/>
+                          <Component id="jLabelMedia" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="51" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="jLabelMedia" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jScrollPaneMedia" min="-2" pref="347" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Component id="jButtonCalcular" min="-2" pref="67" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelMedia">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Franklin Gothic Heavy" size="20" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="0" red="33" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="M&#xe9;didas separatrizes"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPaneMedia">
+          <Properties>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor Padr&#xe3;o"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea2">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="lineWrap" type="boolean" value="true"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="&#xa;&#x9;S&#xe3;o n&#xfa;meros que dividem a sequ&#xea;ncia ordenada de dados em partes que cont&#xea;m a mesma quantidade de elementos da s&#xe9;rie. Desta forma, a mediana que divide a sequ&#xea;ncia ordenada em dois grupos, cada um deles contendo 50% dos valores da sequ&#xea;ncia, &#xe9; tamb&#xe9;m uma medida separatriz.&#xa; &#x9;Al&#xe9;m da mediana, as outras medidas separatrizes s&#xe3;o: quartis, quintis, decis e percentis.&#xa;&#xa;Quartis&#xa;&#xa;&#x9;Ao dividir a s&#xe9;rie ordenada em quatro partes, cada uma ficar&#xe1; com seus 25% de seus elementos. Os elementos que separam estes grupos s&#xe3;o chamados de quartis.&#xa;Assim, o primeiro quartil, que indicado por Q1, separa a sequ&#xea;ncia ordenada deixando 25% de seus valores &#xe0; esquerda e 75% de seus valores &#xe0; direita. O segundo quartil, indicado por Q2, separa a sequ&#xea;ncia ordenada deixando 50% de seus valores &#xe0; esquerda e 50% de seus valores &#xe0; direita. O Q2 &#xe9; a Mediana da s&#xe9;rie.  O terceiro quartil Q3 obedece a mesma regra dos anteriores.&#xa;&#xa;Quintis&#xa;&#xa;&#x9;Ao dividir a s&#xe9;rie ordenada em cinco partes, cada uma ficar&#xe1; com seus 20% de seus elementos. Os elementos que separam estes grupos s&#xe3;o chamados de quintis.&#xa;Assim, o primeiro quintil, indicado por K1, separa a sequ&#xea;ncia ordenada deixando 20% de seus valores &#xe0; esquerda e 80% de seus valores &#xe0; direita. De modo an&#xe1;logo s&#xe3;o definidos os outros quintis.&#xa;&#xa;Decis&#xa;&#xa;&#x9;Ao dividir a s&#xe9;rie ordenada em dez partes, cada uma ficar&#xe1; com seus 10% de seus elementos. Os elementos que separam estes grupos s&#xe3;o chamados de decis.&#xa;&#x9;Assim, o primeiro decil, indicado por D1, separa a sequ&#xea;ncia ordenada deixando 10% de seus valores &#xe0; esquerda e 90% de seus valores &#xe0; direita. De modo an&#xe1;logo s&#xe3;o definidos os outros decis.&#xa;&#xa;Percentis&#xa;&#xa;&#x9;Ao dividir a s&#xe9;rie ordenada em cem partes, cada uma ficar&#xe1; com 1% de seus elementos. Os elementos que separam estes grupos s&#xe3;o chamados de centis ou percentis.&#xa;&#x9;Assim, o primeiro percentil, indicado por P1, separa a sequ&#xea;ncia ordenada deixando 1% de seus valores &#xe0; esquerda e 99% de seus valores &#xe0; direita. De modo an&#xe1;logo s&#xe3;o definidos os outros percentis.&#xa;&#xa;&#x9;Verifica-se que os quartis, quintis e decis s&#xe3;o m&#xfa;ltiplos dos percentis, ent&#xe3;o basta estabelecer a f&#xf3;rmula de c&#xe1;lculo de percentis. Todas as outras medidas podem ser identificadas como percentis.&#xa;&#xa;C&#xe1;lculo da separatriz:&#xa;&#xa;&#x9;Identifica-se a medida que se pretende obter com o percentil correspondente, Pi Calcula-se i% de n para localizar a posi&#xe7;&#xe3;o do percentil i no Rol, ou seja: &#xa;&#xa;&#x9;&#x9;&#x9;Pi = (i*n)/100&#xa;&#xa;&#x9;Em seguida, identifica-se o elemento que ocupa esta posi&#xe7;&#xe3;o.&#xa;&#x9;Note que se o elemento for um n&#xfa;mero inteiro, ent&#xe3;o o Pi procurado &#xe9; um dos elementos da sequ&#xea;ncia ordenada.&#xa;&#x9;Se n&#xe3;o for um n&#xfa;mero inteiro, isto significa que Pi &#xe9; um elemento intermedi&#xe1;rio entre os elementos que ocupam as posi&#xe7;&#xf5;es aproximadas por falta ou por excesso do valor calculado. Neste caso, Pi &#xe9; definido como sendo a m&#xe9;dia dos valores que ocupam estas posi&#xe7;&#xf5;es aproximadas.&#xa;&#xa;&#x9;Exemplo: &#xa;&#x9;Calcule o D4 da s&#xe9;rie:&#xa;&#x9;&#x9;Xi&#x9;fi&#x9;fac&#x9; &#xa;&#x9;&#x9;2&#x9;3&#x9;3&#x9; &#xa;&#x9;&#x9;4&#x9;5&#x9;8&#x9; &#xa;&#x9;&#x9;5&#x9;8&#x9;16&#x9; &#xa;&#x9;&#x9;7&#x9;6&#x9;22&#x9;&#xa;&#x9;&#x9;10&#x9;2&#x9;24&#x9;&#xa;&#x9;Um decil (D1), corresponde a 10% dos elementos da s&#xe9;rie, sabendo que um percentil (P1) corresponde a 1% dos elementos da s&#xe9;rie, podemos dizer que P40 corresponde a D40, sendo assim nosso c&#xe1;lculo ser&#xe1;:&#xa;&#xa;&#x9;P40 = (40x24)/100 -&gt; P40 = 960/100 -&gt; P40 = 9,6 posi&#xe7;&#xe3;o&#xa;&#xa;&#x9;Como a posi&#xe7;&#xe3;o est&#xe1; em forma decimal, determinaremos a posi&#xe7;&#xe3;o do elemento pela m&#xe9;dia dos elementos adjacentes, sendo assim:&#xa;&#xa;&#x9;&#x9;           D4 = (5+5)/2 -&gt; D4 = 5&#x9;&#xa;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButtonCalcular">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calcular"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCalcularActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
